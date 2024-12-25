@@ -1,15 +1,5 @@
 def stripLine(fileName, lineNumber, character):
-    """
-    Remove a specific character from a line in a file and write the result to a new output file.
 
-    Parameters:
-    fileName (str): The name of the file to modify.
-    lineNumber (int): The index of the line to modify (0-based).
-    character (str): The character to remove from the specified line.
-
-    Returns:
-    None
-    """
     try:
         # Open the file in read mode and read all lines
         with open(fileName, 'r') as filename:
