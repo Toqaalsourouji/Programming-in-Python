@@ -1,15 +1,5 @@
 def swapCharacters(fileName, charIndex1, charIndex2):
-    """
-    Swap characters at two specific indices in each line of a file and write the result to a new output file.
 
-    Parameters:
-    fileName (str): The name of the file to modify.
-    charIndex1 (int): The index of the first character to swap (0-based).
-    charIndex2 (int): The index of the second character to swap (0-based).
-
-    Returns:
-    None
-    """
     try:
         # Open the file in read mode and read all lines
         with open(fileName, 'r') as filename:
