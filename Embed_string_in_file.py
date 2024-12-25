@@ -1,15 +1,5 @@
 def embed(fileName, startIndex, s):
-    """
-    Embed a string at a specific index in the contents of a file and write the result to a new output file.
 
-    Parameters:
-    fileName (str): The name of the file to modify.
-    startIndex (int): The position (0-based) at which the string should be embedded.
-    s (str): The string to embed at the specified index.
-
-    Returns:
-    None
-    """
     try:
         # Open the file in read mode and read all contents
         with open(fileName, 'r') as filename:
